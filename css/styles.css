@@ -1,0 +1,31 @@
+h1 {
+	text-align: center;
+	color: white;
+}
+.p1 {
+	color: white;
+	text-align: center;
+}
+.input {
+	color: black;
+}
+.user {
+	text-align: center;
+	color: white;
+}
+#sub {
+	background-color: purple;
+	color: cyan;
+	margin-top: 10px;
+}
+.sech {
+	margin-left: 1080px;
+}
+.headers {
+	color: purple;
+	margin-top: -50px;
+}
+#btn {
+	background-color: purple;
+	color: cyan;
+}
