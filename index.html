@@ -9,15 +9,26 @@
    <script src="js/scripts.js"></script>
     <title>Videohub.com</title>
     </head>
-    <body style="background-color:cyan;">
+    <body>
     <div class="container-fluid">
     <div class="topp" style="width:100%;height:200px;background-color:purple">
     <h1>Welcome To My Site</h1>
+
+        <form id="logi">
+    Email:<br><input type="text" name="elog" class="inp">
+    <br>
+    Password:<br><input type="text" name="plog" class="inp">
+    <br>
+    <button type="submit" name="sgn" id="sgi" value="Sign In">Sign In</button>
+    </form>
+
     <div class="headers">
     <button id="hmo">Home</button>
-    <button id="mrm">More</button>
+    <button id="mrm">Videos</button>
+    <button id="new">News</button>
+    <button id="ft">Photos</button>
     <br>
-    <form><select name="tipo">
+    <form><select id="tipo">
        <option>Funny
        <option>Music
        <option>Entertainment
@@ -25,20 +36,21 @@
        </select>
     </form>
     </div>
-    <p class="p1"><strong>Have Fun!</strong></p>
+
     <form>
     <div class="sech">
-    	<input type="text" name="srch"><button id="btn">Search</button>
+    <input type="text" name="srch"><button id="btn">Search</button>
     </form>
     </div>
     </div>
 
-<div class="vds" style="width:100%;height:50px;background-color:purple;margin-top:20px;">
+<div class="vds" style="width:100%;height:45px;background-color:purple;margin-top:20px;">
 <p style="color:white;text-align:center"><strong>Funny Videos</strong></p>
 <p style="color:white;text-align:center"><strong>ENJOY!!!</strong></p>
 </div>
 
     <div class="all">
+    <div class="vds">
     <div class="row" style="margin-top:30px">
     <div class="col-md-4">
     <div class="embed-responsive embed-responsive-4by3">
@@ -121,8 +133,128 @@
     </div>
     </div>
     </div>
+    </div>
+ <div id="nws">
+    <h2>The Latest News</h2>
+    <img src="img/news.jpg">
+    <p>
+    	North Korea says it has detained a US citizen on suspicion of "hostile acts" against the state.
+Kim Hak-song worked at the Pyongyang University of Science and Technology (PUST) and was held on 6 May, state-run news agency KCNA said.
+Three other US citizens are currently held in North Korea, including Kim Sang-duck, who had taught at PUST.
+The US has in the past accused North Korea of detaining its citizens to use them as pawns.
+KCNA said that "a relevant institution" was "conducting [a] detailed investigation" into Kim Hak-song's alleged crimes.
+It gave no further details.
+A State Department official said Washington was "aware of reports that a US citizen was detained in North Korea", adding it would liaise with the Swedish Embassy in Pyongyang, which helps look after US interests in North Korea.
+Kim Hak-song had previously described himself as a Christian missionary who intended to start an experimental farm at PUST, Reuters news agency reported, citing an online post by Mr Kim.
+Inside North Korea's Western-funded university
+PUST is a university that mostly teaches the children of North Korea's elite.
+It was founded in 2010 by a Korean-American Christian entrepreneur, with much of the costs funded by US and South Korea Christian charities.
+Several foreign lecturers are thought to teach at the university.    	
+    </p>
 
-    <div class="end" style="width:100%;height:180px;background-color:purple;">
+<br>
+<h2>Meanwhile in Germany</h2>
+<img src="img/germ.jpg">
+    <p>
+    	Inspections have been ordered at every German army barracks, after Nazi-era memorabilia was found at two of them.
+The defence ministry said the command came from the inspector general of the Bundeswehr (Germany's armed forces).
+All barracks will be searched for material linked to the Wehrmacht, the army which served Adolf Hitler.
+The move follows a growing scandal over far-right extremism within the army, with an officer accused of plotting an attack disguised as a Syrian refugee.
+The army lieutenant, who had expressed far-right views, was arrested in late April.
+Prosecutors in Frankfurt said the 28-year-old suspect had a "xenophobic background".
+Germany's Defence Minister Ursula von der Leyen cancelled a planned trip to the US and travelled to his garrison in Illkirch, northeastern France.
+Officials found Wehrmacht memorabilia openly displayed there in the common room, despite a ban on Nazi symbols.
+German defence minister attacks own army
+A second barracks, Fürstenberg in Donaueschingen, southwest Germany, was then sucked into the scandal on Saturday after a display cabinet was found containing Nazi-era helmets.
+Spiegel online reported that pictures of Wehrmacht soldiers were found on a wall, along with Nazi pistols, more helmets and military decorations.
+    </p>
+
+    <h2>Stupid terrorists killing innocents!!!</h2>
+    <img src="img/talib.jpg">
+    <p>
+    	More than 2,000 families have been forced to flee their homes in the northern Afghan city of Kunduz amid heavy fighting, officials say.
+The evacuations came as Taliban militants seized the district of Qala-e-Zal, just west of the city.
+Clashes continue in other parts of the city, as the Taliban try to increase pressure on government troops in both the north and south of the country.
+The militants twice entered Kunduz in the past two years before retreating.
+BBC South Asia editor Jill McGivering says this is a classic example of surge and retreat which is now common in Afghanistan as the Taliban tries to extend its reach but struggles to retain new ground.
+The Norwegian Refugee Council (NRC) said in a statement that while some fleeing families were able to find refuge with relatives others were forced to sleep in the open.
+Who are the Taliban?
+Afghanistan's new 'Great Game'
+"Those with no money, like widows, are in Qala-e Zal desert, as they couldn't make it as far as the city. They are now living in the open," local resident Abdul Karim told the NRC.
+A recent US report suggests more than 600,000 Afghans were displaced by fighting last year, a 40% increase on the previous year.
+There has been increased fighting in northern Afghanistan since the Taliban announced their Spring offensive on 28 April.
+Afghan map
+    </p>
+    </div>
+
+<div class="pht">
+<div class="fft" style="width:100%;height:50px;background-color:purple;margin-top:30px;">
+<p style="color:white;text-align:center"><strong>Funny Photos</strong></p>
+<p style="color:white;text-align:center"><strong>ENJOY!!!</strong></p>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<img src="img/camel.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/what.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/baby.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/fat.jpg">
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<img src="img/monkey.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/fart.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/mom.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/poop.jpg">
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<img src="img/dog.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/mini.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/shower.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/old.jpg">
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<img src="img/titanic.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/hate.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/nuts.jpg">
+</div>
+<div class="col-md-3">
+<img src="img/me.jpg">
+</div>
+</div>
+</div>
+
+    <div class="end" style="width:100%;height:280px;background-color:purple; margin-top:10px;">
     <form class="user">
     First Name:<br><input type="text" name="first" class="input">
     <br>
@@ -130,7 +262,11 @@
     <br>
     Email Address:<br><input type="text" name="email" class="input">
     <br>
-    <input type="submit" id="sub" value="Subscribe"/>
+    Password:<br><input type="text" name="psd" class="input">
+    <br>
+    Confirm Password:<br><input type="text" name="conf" class="input">
+    <br>
+    <input type="submit" id="sub" value="SignUp"/>
     </form>
     </div>
     </div>
