@@ -18,12 +18,7 @@ h1 {
 	color: cyan;
 	margin-top: 10px;
 }
-.sech {
-}
-.headers {
-	color: purple;
-	margin-top: -50px;
-}
+
 #btn {
 	background-color: purple;
 	color: cyan;
@@ -52,4 +47,19 @@ h1 {
 }
 .all {
 	display: none;
+}
+.headers {
+	color: white;
+}
+#hmo {
+	color: white;
+}
+#mrm {
+	color: white;
+}
+#new {
+	color: white;
+}
+#ft {
+	color: white;
 }
